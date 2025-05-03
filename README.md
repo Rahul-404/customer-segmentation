@@ -1,1 +1,1 @@
-# customer-segmentation
+# Customer Segmentation
