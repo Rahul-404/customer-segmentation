@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 
 customer_segmentation/artifact/
+notebooks/data/
