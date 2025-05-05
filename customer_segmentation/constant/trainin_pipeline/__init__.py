@@ -7,7 +7,7 @@ TARGET_COLUMN = "cluster"
 PIPELINE_NAME: str = "customer_segmentation"
 ARTIFACT_DIR: str = "artifact"
 LOG_DIR = "logs"
-LOG_FILE = f"log_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log"
+LOG_FILE = f"log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
 # common file name
 
@@ -16,7 +16,7 @@ TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 MODEL_FILE_NAME = "model.pkl"
-SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
+SCHEMA_FILE_PATH = os.path.join(PIPELINE_NAME, "configuration", "schema.yaml")
 
 
 """
