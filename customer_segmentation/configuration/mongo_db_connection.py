@@ -8,6 +8,9 @@ import pymongo.mongo_client
 from customer_segmentation.constant.database import DATABASE_NAME
 from customer_segmentation.constant.env_variable import MONGODB_URL_KEY
 from customer_segmentation.exception import CustomerException
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ca = certifi.where()
 
@@ -34,4 +37,6 @@ class MongoDBClient:
 
         except Exception as e:
             raise CustomerException(e, sys)
+        
+
 
