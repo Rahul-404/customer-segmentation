@@ -1,0 +1,4 @@
+drop_columns:
+  - "ID"
+  - "Z_CostContact"
+  - "Z_Revenue"
