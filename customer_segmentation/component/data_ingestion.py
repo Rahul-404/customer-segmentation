@@ -9,7 +9,7 @@ from customer_segmentation.exception import CustomerException
 
 from customer_segmentation.constant.database import DATABASE_NAME, COLLECTION_NAME
 
-from customer_segmentation.entity.config_entiry import DataIngestionConfig
+from customer_segmentation.entity.config_entity import DataIngestionConfig
 
 from customer_segmentation.entity.artifact_entity import DataIngestionArtifact
 
@@ -128,4 +128,4 @@ class DataIngestion:
 if __name__ == "__main__":
     data_ingestion_object = DataIngestion()
     data_ingestion_artifact = data_ingestion_object.initiate_data_ingestion()
-    print(data_ingestion_artifact)
+    # print(data_ingestion_artifact)

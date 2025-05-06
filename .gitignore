@@ -174,4 +174,6 @@ cython_debug/
 .pypirc
 
 customer_segmentation/artifact/
+flowchart/*.bkp
+flowchart/*.drawio
 notebooks/data/
