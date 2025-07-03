@@ -177,3 +177,14 @@ customer_segmentation/artifact/
 flowchart/*.bkp
 flowchart/*.drawio
 notebooks/data/
+notebooks/images/
+tests/
+notebooks/01_*.ipynb
+notebooks/02_*.ipynb
+notebooks/04_*.ipynb
+notebooks/05_*.ipynb
+notebooks/06_*.ipynb
+notebooks/07_*.ipynb
+notebooks/08_*.ipynb
+notebooks/09_*.ipynb
+notebooks/10_*.ipynb
