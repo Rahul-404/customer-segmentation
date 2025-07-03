@@ -160,12 +160,3 @@ class DataValidation:
             return data_validation_artifact
         except Exception as e:
             raise CustomerException(e, sys)
-        
-# if __name__ == "__main__":
-#     data_ingestion_object = DataIngestion()
-#     data_ingestion_artifact = data_ingestion_object.initiate_data_ingestion()
-
-#     data_validation_object = DataValidation(data_ingestion_artifact=data_ingestion_artifact, 
-#                                             data_validation_config=DataValidationConfig)
-#     data_validation_artifact = data_validation_object.initiate_data_validation()
-#     print(data_validation_artifact)
