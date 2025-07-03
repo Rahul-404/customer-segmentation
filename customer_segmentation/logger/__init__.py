@@ -3,7 +3,7 @@ import os
 
 from from_root import from_root
 
-from customer_segmentation.constant.trainin_pipeline import ARTIFACT_DIR, LOG_DIR, LOG_FILE, PIPELINE_NAME
+from customer_segmentation.constant.training_pipeline import ARTIFACT_DIR, LOG_DIR, LOG_FILE, PIPELINE_NAME
 
 log_path= os.path.join(from_root(), PIPELINE_NAME, ARTIFACT_DIR, LOG_DIR)
 
