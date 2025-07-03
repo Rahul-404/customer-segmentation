@@ -1,0 +1,22 @@
+columns:
+  - Age
+  - Education
+  - Marital Status
+  - Parental Status
+  - Children
+  - Income
+  - Total_Spending
+  - Days_as_Customer
+  - Recency
+  - Wines
+  - Fruits
+  - Meat
+  - Fish
+  - Sweets
+  - Gold
+  - Web
+  - Catalog
+  - Store
+  - Discount Purchases
+  - Total Promo
+  - NumWebVisitsMonth
